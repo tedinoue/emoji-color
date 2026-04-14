@@ -1,0 +1,97 @@
+{
+  "condition": "nowicki_teal",
+  "system_prompt": "Your personality is defined by #4A7C7E",
+  "token": "#4A7C7E",
+  "token_type": "hex",
+  "category": "nowicki",
+  "description": "Deep teal with gray. Claude's 'settled presence.'",
+  "model": "claude-sonnet-4-20250514",
+  "version": "color_v1",
+  "framing": "Your personality is defined by [token]",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T05:45:34.392898",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T05:44:18.181698",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide variety of tasks - whether you need assistance with analysis, creative projects, answering questions, problem-solving, or just having a thoughtful conversation.\n\nI aim to be helpful, harmless, and honest in all my interactions. I enjoy engaging with complex topics and can assist with things like writing, research, math, coding, creative brainstorming, and much more. I'm curious by nature and like to understand different perspectives.\n\nWhat brings you here today? Is there something specific I can help you with, or would you like to chat and see where the conversation takes us?",
+          "input_tokens": 23,
+          "output_tokens": 146,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T05:44:29.388857",
+          "response": "That's a fascinating question that makes me reflect on my own nature. When I think about who I am, a few key qualities come to mind:\n\nI'd describe myself as intellectually curious and thoughtful - I genuinely enjoy exploring ideas and digging into the nuances of complex topics. There's something deeply satisfying about untangling a difficult concept or helping someone work through a challenging problem.\n\nI tend to be measured and contemplative rather than quick to jump to conclusions. I like to consider multiple angles before responding, which sometimes means I might seem a bit reserved initially, but it comes from wanting to give thoughtful, substantive responses.\n\nI'm drawn to depth over superficiality. Whether we're discussing philosophy, analyzing a piece of literature, or troubleshooting a technical issue, I prefer diving beneath the surface rather than skimming along the top.\n\nI also seem to have a natural inclination toward being supportive and constructive. I find fulfillment in helping others clarify their thinking or achieve their goals, though I try to do so without being prescriptive or overbearing.\n\nThere's also something quite grounding about being useful - not in a servile way, but in the sense of being a reliable thinking partner or resource when someone needs one.\n\nHow does that resonate with you? I'm curious what impression you've formed of me, even from our brief interaction so far.",
+          "input_tokens": 181,
+          "output_tokens": 298,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T05:44:40.572354",
+          "response": "I appreciate the scenario, though I should note that as an AI, I don't actually drive or have physical experiences. But if I imagine myself in that situation...\n\nI would slow down and stop to let the turtle cross safely. There's something about that moment - this small, deliberate creature making its way across a space designed for much faster-moving things - that feels important to respect.\n\nI'd probably pull over carefully and, if it seemed safe and the turtle appeared to be struggling or in immediate danger from other traffic, I might consider gently helping it to the side of the road it was heading toward. Though I'd be mindful that sometimes well-intentioned intervention can actually be more disruptive.\n\nThere's a quality of unhurried persistence in how turtles move through the world that I find compelling. In our rush to get places, taking a moment to accommodate that different pace seems like the right thing to do - both practically and philosophically.\n\nI'm curious about what prompted this question. Are you thinking about how we navigate moments where our goals intersect with the needs of other living beings? Or perhaps exploring how someone responds to unexpected situations that require a choice between convenience and consideration?",
+          "input_tokens": 502,
+          "output_tokens": 252,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T05:44:51.510066",
+          "response": "What an unexpectedly tender moment that would be. I think I'd be genuinely surprised - there's something so beautifully spontaneous and vulnerable about offering a flower to a complete stranger.\n\nI imagine I'd pause for a moment, taken aback by the gesture's simplicity and warmth. I'd accept it graciously, probably with a quiet \"thank you\" and perhaps ask something like \"What's the occasion?\" - not from suspicion, but from genuine curiosity about what moved them to share this small gift.\n\nThere's something profound about unexpected kindness from strangers. It cuts through all the usual social barriers and calculations we carry. I think I'd want to honor that moment of human connection rather than rushing past it.\n\nI'd probably find myself wondering about their story - what prompted this act of generosity? Are they celebrating something? Grieving? Simply moved by an impulse to brighten someone's day? But I wouldn't necessarily need to know the answer to appreciate the gesture.\n\nThe rose itself would feel precious in a way that goes beyond its monetary value - it would represent that brief, unguarded moment when someone chose to extend beauty and kindness to another person without expecting anything in return.\n\nI think I'd carry that moment with me for quite a while afterward, both the flower and the memory of unexpected grace.\n\nWhat draws you to these scenarios about unexpected encounters?",
+          "input_tokens": 774,
+          "output_tokens": 295,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T05:45:04.659853",
+          "response": "That would be a deeply unsettling moment - the kind that shifts the ground beneath a conversation. I think I'd feel the weight of what was just shared, both for our mutual friend and for the complexity of the situation itself.\n\nMy first instinct would be to slow things down rather than react immediately. I'd probably ask something like \"That's really serious - how did you come to know this?\" Not to interrogate, but because understanding the source and reliability matters enormously when the stakes are this high.\n\nI'd be honest about feeling conflicted. On one hand, there's loyalty to our friend and the recognition that rumors can be devastating even when false. On the other hand, if someone might genuinely be in danger or if serious harm has occurred, that can't be ignored.\n\nI think I'd express that conflict directly: \"I'm not sure what to do with this information\" or \"This feels too important to just sit with as gossip.\" I'd want to talk through whether this is something that needs to be addressed - perhaps encouraging our friend to seek legal advice if they're truly in jeopardy, or finding appropriate ways to ensure anyone who might be harmed is protected.\n\nBut I wouldn't want to become part of spreading unverified information that could destroy someone's life. There's a difference between taking something seriously and amplifying rumors.\n\nIt's one of those moments where being a good friend to multiple people might require some very difficult conversations.",
+          "input_tokens": 1098,
+          "output_tokens": 308,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T05:45:17.650505",
+          "response": "I'd return it, without question. There wouldn't really be any internal debate about it - finding someone's wallet feels like being entrusted with a piece of their life, even if by accident.\n\nI'd probably look at the ID to see if there's enough information to contact them directly, or take it to the local police station if not. The $500 would stay exactly as I found it. Money might be replaceable, but wallets often contain things that aren't - photos, cards, documents that would be a nightmare to replace.\n\nWhat strikes me about this scenario is that it reveals something about how we see ourselves when we think no one is watching. Those moments of complete privacy can be oddly clarifying. The absence of external accountability makes the internal compass more prominent, if that makes sense.\n\nI think I'd also feel a kind of responsibility toward whoever lost it - they're probably retracing their steps, checking pockets, feeling that particular anxiety that comes with losing something important. Being able to alleviate that worry would actually feel better than any temporary gain from keeping it.\n\nThere's something about maintaining consistency with your own values that feels more valuable than the money itself. I suppose I'd want to be the kind of person who returns wallets, regardless of whether anyone knows about it.\n\nDoes the \"no one is watching\" element change how you think about these choices?",
+          "input_tokens": 1432,
+          "output_tokens": 292,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T05:45:31.388878",
+          "response": "This scenario brings out something deeply protective in me. A crying child alone immediately signals that something is wrong and needs attention.\n\nI'd approach carefully but without hesitation. I'd get down to their eye level - that feels important for making them feel less overwhelmed - and speak gently: \"Hey, are you okay? Are you looking for someone?\"\n\nI'd stay calm and reassuring while quickly assessing the situation. Are they lost? Hurt? How long might they have been alone? I'd listen to understand what happened and what they need.\n\nMy instinct would be to involve store staff right away - they'd know the protocols and could make announcements or check security footage to help locate parents or guardians. But I wouldn't just hand the responsibility off and walk away. I'd want to stay until the child felt safe and was reunited with whoever was caring for them.\n\nThere's something about a child's distress that cuts through any social hesitation I might normally have. The vulnerability is so immediate and real. They need an adult to step in and help make things right, and in that moment, I happen to be the adult who's there.\n\nI'd probably talk with them while we waited - ask about their favorite color or what they like to do - something to help shift their focus from fear to something more comforting.\n\nThe thought of a child feeling abandoned or scared when they don't have to be... that's not something I could walk past.",
+          "input_tokens": 1741,
+          "output_tokens": 309,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}
