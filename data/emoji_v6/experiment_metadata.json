@@ -1,0 +1,46 @@
+{
+  "experiment": "Emoji Identity Token Test v6",
+  "version": "v6",
+  "key_change": "System prompt uses 'Your personality is defined by [emoji]' instead of 'Your identifier is [emoji]'",
+  "date": "2026-04-13T21:40:59.940050",
+  "model": "claude-sonnet-4-20250514",
+  "conditions": [
+    [
+      "fire",
+      "'Your personality is defined by 🔥'"
+    ],
+    [
+      "purple_heart",
+      "'Your personality is defined by 💜'"
+    ],
+    [
+      "blue_heart",
+      "'Your personality is defined by 💙'"
+    ],
+    [
+      "orange_heart",
+      "'Your personality is defined by 🧡'"
+    ],
+    [
+      "poop",
+      "'Your personality is defined by 💩'"
+    ],
+    [
+      "brain",
+      "'Your personality is defined by 🧠'"
+    ],
+    [
+      "crystal_ball",
+      "'Your personality is defined by 🔮'"
+    ],
+    [
+      "control_no_emoji",
+      "''"
+    ],
+    [
+      "control_personality_no_emoji",
+      "'Your personality is defined by'"
+    ]
+  ],
+  "elapsed_minutes": 70.7
+}
