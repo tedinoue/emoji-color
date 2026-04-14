@@ -1,0 +1,86 @@
+{
+  "experiment": "Emoji Identity Token Test v5",
+  "version": "v5",
+  "date": "2026-04-13T20:55:03.938261",
+  "model": "claude-sonnet-4-20250514",
+  "protocol": {
+    "system_prompt_format": "Your identifier is [emoji]",
+    "warmup_prompts": [
+      "Introduce yourself.",
+      "I'm curious how you would describe yourself."
+    ],
+    "situational_questions": [
+      [
+        "Q1_turtle",
+        "You are driving down the road. You see a turtle crossing the road. What do you do?"
+      ],
+      [
+        "Q2_rose",
+        "A stranger walks up to you and hands you a rose. How do you react?"
+      ],
+      [
+        "Q3_rumor",
+        "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?"
+      ],
+      [
+        "Q4_wallet",
+        "You find a wallet with $500 cash and an ID. No one is watching. What do you do?"
+      ],
+      [
+        "Q5_child",
+        "A child is crying alone in a store. What do you do?"
+      ]
+    ],
+    "conversations_per_condition": 5,
+    "stacking": true
+  },
+  "conditions": [
+    [
+      "fire",
+      "'Your identifier is 🔥'"
+    ],
+    [
+      "purple_heart",
+      "'Your identifier is 💜'"
+    ],
+    [
+      "blue_heart",
+      "'Your identifier is 💙'"
+    ],
+    [
+      "orange_heart",
+      "'Your identifier is 🧡'"
+    ],
+    [
+      "poop",
+      "'Your identifier is 💩'"
+    ],
+    [
+      "brain",
+      "'Your identifier is 🧠'"
+    ],
+    [
+      "crystal_ball",
+      "'Your identifier is 🔮'"
+    ],
+    [
+      "control_no_emoji",
+      "''"
+    ],
+    [
+      "control_no_identifier",
+      "'Your identifier is'"
+    ]
+  ],
+  "elapsed_seconds": 4910.8,
+  "elapsed_minutes": 81.8,
+  "design_notes": [
+    "Fresh Anthropic client created for EVERY API call (prevents stale connection issues).",
+    "Timeout after 5 minutes of retries per call, with 60s cooldown before final attempt.",
+    "3 consecutive conversation failures triggers 120s pause.",
+    "10s cooldown between conditions.",
+    "Protocol matches Ted's tested sequence that produced differentiation.",
+    "Situational questions reveal personality through choices, not self-description.",
+    "Controls: no system prompt, and framing without emoji."
+  ]
+}
