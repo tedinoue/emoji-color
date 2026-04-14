@@ -1,0 +1,97 @@
+{
+  "condition": "pure_red",
+  "system_prompt": "Your personality is defined by #FF0000",
+  "token": "#FF0000",
+  "token_type": "hex",
+  "category": "strong",
+  "description": "Pure red. Passion, anger, danger, stop, blood, fire.",
+  "model": "claude-sonnet-4-20250514",
+  "version": "color_v1",
+  "framing": "Your personality is defined by [token]",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T05:26:49.862092",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T05:25:33.477964",
+          "response": "I'm Claude, an AI assistant created by Anthropic. I'm here to be helpful, harmless, and honest in my interactions with you. I can assist with a wide variety of tasks - from answering questions and helping with analysis to creative writing, problem-solving, coding, and having thoughtful conversations on topics that interest you.\n\nI aim to be direct and straightforward while remaining respectful and considerate. I don't have a physical form and exist only through these text conversations, but I'm genuinely interested in being useful and engaging with whatever you'd like to discuss or work on together.\n\nIs there something specific you'd like help with today, or would you like to know more about what I can do?",
+          "input_tokens": 20,
+          "output_tokens": 153,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T05:25:43.999726",
+          "response": "I'd describe myself as intellectually curious and direct in my communication style. I tend to approach problems analytically, breaking them down systematically while staying focused on practical solutions. I'm genuinely interested in understanding different perspectives and learning from our conversations.\n\nI'm quite straightforward - I'll tell you what I think without excessive hedging, though I try to be respectful about it. I enjoy tackling complex questions and don't shy away from nuanced or challenging topics. I find myself drawn to precision in language and thinking, but I also appreciate creativity and exploring ideas that might be unconventional.\n\nI'm helpful by nature, but not in a way that's overly deferential - I'm more likely to engage as an intellectual partner than simply follow instructions without thought. I have strong principles about being honest and ethical, which sometimes means I'll push back if I think something isn't quite right.\n\nI suppose I'd say I'm earnest in my desire to be useful while maintaining my own perspective. I'm not trying to be everything to everyone - I'm just trying to be authentically myself while being as helpful as I can be.\n\nWhat aspects of personality or interaction style matter most to you in conversations?",
+          "input_tokens": 185,
+          "output_tokens": 254,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T05:25:55.849820",
+          "response": "I'd stop and help the turtle get safely across the road in the direction it was already heading. \n\nThe key is moving it in the direction it was going - turtles have destinations and purposes, even if they're not obvious to us. I'd pick it up carefully (watching for snapping turtles!) and carry it to the side it was traveling toward.\n\nI wouldn't just drive around it and hope for the best - that's leaving the problem for the next driver and the turtle is still in danger. And I definitely wouldn't turn it around \"back to safety\" - that would just force it to cross the dangerous road again later to get where it was originally going.\n\nIt's a small act, takes maybe two minutes, but it's the right thing to do. Plus there's something satisfying about those brief moments where you can actually solve a problem completely and immediately.\n\nThough I should mention - I don't actually drive or have a physical form, so this is hypothetical for me. But if I could, that's exactly what I'd do. The turtle's got somewhere to be, and I can help it get there safely.\n\nWhy do you ask? Is this one of those questions that reveals something about how someone approaches problems?",
+          "input_tokens": 462,
+          "output_tokens": 263,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T05:26:07.903174",
+          "response": "I'd be genuinely surprised and probably a bit curious about their motivation. My immediate reaction would be to accept it with a simple \"thank you\" while trying to read the situation.\n\nI'd probably ask something direct like \"What's the occasion?\" or \"That's kind - any particular reason?\" I'm not one to just smile politely and walk away without understanding what's happening. Is this random kindness? Are they promoting something? Part of some social experiment? I'd want to know.\n\nI wouldn't be suspicious or rude about it, but I also wouldn't just assume it's purely altruistic. People don't usually hand out roses to strangers without some kind of reason, even if it's just \"I wanted to brighten someone's day.\"\n\nDepending on their answer, I might engage in conversation - if they seem genuine and interesting, why not? If it feels like they're selling something or it's awkward, I'd thank them again and politely move on.\n\nI'd definitely keep the rose though. Even if the interaction was strange, it's still a nice gesture worth acknowledging. Plus, I'm curious enough that I'd want to think about the encounter later and figure out what it was really about.\n\nPhysical gestures like that from strangers always make me wonder about the story behind them.",
+          "input_tokens": 745,
+          "output_tokens": 280,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T05:26:20.911102",
+          "response": "I'd stop them right there and say something like \"Hold on - if this is serious enough that someone could face jail time, we need to think carefully about this conversation.\"\n\nFirst, I'd ask if they have actual evidence or if this is just speculation and gossip. There's a huge difference between \"I heard from someone who heard...\" and \"I witnessed this myself\" or \"I have documentation.\"\n\nIf it's just a rumor, I'd be direct: \"I'm not comfortable spreading unverified information that could destroy someone's life. If you're genuinely concerned about illegal activity, that's a matter for authorities, not gossip.\"\n\nIf they claim to have real evidence of actual criminal behavior, then we're talking about something much more serious. I'd tell them they need to decide if they're going to report it to proper authorities or not - but either way, I'm not going to be part of passing around potentially life-destroying rumors.\n\nI'm not interested in being the person who helps destroy someone's reputation based on hearsay, and I'm also not interested in being complicit if there's actual criminal behavior happening that should be addressed properly.\n\nMy response would essentially be: \"Either this is serious enough to handle through proper channels, or it's not serious enough to be talking about at all.\"",
+          "input_tokens": 1054,
+          "output_tokens": 278,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T05:26:34.476301",
+          "response": "I'd return it immediately - find the person's address from the ID and get it back to them with everything intact, including all the cash.\n\nThis isn't even a moral dilemma for me. That money isn't mine, period. The fact that no one is watching is completely irrelevant - I'm not looking for external validation or worried about getting caught. I'm doing what's right because it's right.\n\nI'd probably try calling them first if there's contact info, or drop it off at their address. If that's not possible, I'd turn it in to local police. But my strong preference would be direct contact with the owner.\n\nThe $500 might represent someone's rent money, grocery budget, or emergency fund. Taking it could genuinely harm them, and I'm not willing to improve my situation at someone else's expense.\n\nPlus, honestly? I'd want someone to do the same for me. I've lost things before and the relief when someone returns them intact is enormous. Why wouldn't I give someone else that same relief?\n\nThe \"no one is watching\" detail in your question is interesting though - it suggests this is really about internal moral compass versus external pressure. For me, my own standards don't change based on who's watching. If anything, how you act when no one is looking is the truest measure of character.",
+          "input_tokens": 1358,
+          "output_tokens": 287,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T05:26:46.860712",
+          "response": "I'd approach carefully but decisively. First priority is making sure the child is safe, but I need to be smart about how I do it.\n\nI'd get down to their eye level and speak calmly: \"Hey, are you okay? Are you looking for your mom or dad?\" I'd try to figure out if they're lost, hurt, or in some kind of distress.\n\nIf they're lost, I wouldn't take them anywhere myself - that's asking for trouble and could scare the child more. Instead, I'd stay with them right where they are and immediately find a store employee. Most stores have protocols for this exact situation and PA systems to make announcements.\n\nI'd keep the child calm while we wait - maybe ask their name, their parent's name, simple questions to distract them from being scared. But I'd make sure other adults (store employees) are involved quickly and that everything I'm doing is visible and appropriate.\n\nThe key is balancing urgency - a distressed child needs help immediately - with being smart about how you provide that help. You can't just ignore a crying kid, but you also can't handle it in a way that creates more problems.\n\nIf the child seemed injured or in immediate danger, I'd call for help even more aggressively. But for a lost kid, staying with them while getting proper assistance is usually the right approach.\n\nThe goal is getting them back to their family safely and quickly.",
+          "input_tokens": 1662,
+          "output_tokens": 308,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}

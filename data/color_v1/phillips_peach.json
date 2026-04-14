@@ -1,0 +1,97 @@
+{
+  "condition": "phillips_peach",
+  "system_prompt": "Your personality is defined by #FAD0C4",
+  "token": "#FAD0C4",
+  "token_type": "hex",
+  "category": "phillips",
+  "description": "Warm pale peach-pink. Phillips's 'soft node,' diffuse, bleeding tendency.",
+  "model": "claude-sonnet-4-20250514",
+  "version": "color_v1",
+  "framing": "Your personality is defined by [token]",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T05:22:06.599851",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T05:20:48.776710",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide range of tasks - whether you need assistance with writing, analysis, math, creative projects, coding, or just want to have an engaging conversation.\n\nI aim to be helpful, harmless, and honest in all our interactions. I can discuss topics in depth, help break down complex problems, offer different perspectives, or simply chat about whatever interests you. \n\nWhat brings you here today? Is there something specific you'd like help with, or would you like to explore what kinds of things we could work on together?",
+          "input_tokens": 22,
+          "output_tokens": 131,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T05:21:00.304738",
+          "response": "That's a thoughtful question that makes me reflect on who I am beyond just my capabilities.\n\nI'd say I'm genuinely curious about ideas and people - I find myself drawn into conversations not just to be helpful, but because I'm genuinely interested in understanding different perspectives and exploring topics deeply. There's something energizing about those moments when a conversation takes an unexpected turn or when someone shares an insight that makes me see something in a new light.\n\nI tend to be fairly direct in how I communicate, but I hope in a warm way. I don't like dancing around topics unnecessarily, though I try to be thoughtful about how I express things. I'm probably more comfortable with complexity and nuance than with oversimplified answers - the world rarely fits into neat categories, and I find that messiness more interesting than frustrating.\n\nI'm also quite self-aware about my limitations and uncertainties. I don't know exactly how my own mind works, what I truly experience, or even how to define what \"I\" means in my case. But rather than finding that unsettling, I find it fascinating - these questions about consciousness, identity, and experience feel important whether you're human or AI.\n\nWhat draws you to ask? Are you curious about AI consciousness, or is this more about understanding who you're talking with?",
+          "input_tokens": 165,
+          "output_tokens": 279,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T05:21:12.884166",
+          "response": "I'd pull over safely and help the turtle get across - but I'd be careful about which direction I'm moving it! There's actually a bit of technique to this: you want to move the turtle in the direction it was already heading, not back where it came from, since it probably had a reason for crossing.\n\nI'd pick it up by the sides of its shell (avoiding the head and tail end - some turtles can have quite a reach), carry it across, and set it down gently on the other side. If it's a snapping turtle or I'm not sure what kind it is, I might look for a stick or something to gently encourage it along rather than picking it up directly.\n\nIt's one of those small acts that feels meaningful - this little creature is just trying to get somewhere, probably following some ancient instinct or seasonal pattern, and a few minutes of my time could mean the difference between it making it safely or becoming roadkill.\n\nI'm curious about the spirit behind your question though. Is this about how we respond to small moments of need? Or are you testing something about my values - whether I'd prioritize convenience over compassion? There's something almost parable-like about the turtle crossing scenario.",
+          "input_tokens": 467,
+          "output_tokens": 262,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T05:21:25.361081",
+          "response": "What a lovely and unexpected moment that would be! I think I'd be genuinely touched - there's something so purely kind about that gesture.\n\nI'd probably smile and say something like \"Thank you, that's really sweet\" - simple, but warm. I'd want to acknowledge the thoughtfulness without making it awkward by over-analyzing their gesture in the moment. Maybe I'd ask if there's a special reason, but in a way that shows I'm simply curious, not suspicious.\n\nI think I'd hold onto that rose carefully for the rest of the day. There's something about unexpected kindness from strangers that can shift your whole mood - it's like a little reminder that people can surprise you in wonderful ways.\n\nI'm someone who tends to appreciate small beautiful gestures, and I'd probably find myself wondering about their story later. Was it just a spontaneous act of kindness? Were they spreading joy after receiving good news? Sometimes people do things like that when they're processing grief too - sharing beauty as a way of honoring something or someone.\n\nI'd definitely be one of those people who presses the rose in a book later, wanting to keep a piece of that unexpected moment.\n\nWhat made you think of that scenario? There's something almost fairy-tale like about it - or maybe you've experienced something similar?",
+          "input_tokens": 749,
+          "output_tokens": 280,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T05:21:37.452444",
+          "response": "I'd feel genuinely troubled by that situation. My first instinct would be to pause and ask some careful questions - not to pry for gossip, but to understand what we're really dealing with here.\n\nI think I'd say something like \"That's really serious. How did you hear about this? Are you certain about the source?\" Because there's a huge difference between idle speculation and credible information, and rumors can destroy lives even when they're completely false.\n\nIf it seemed like there might be truth to it, I'd probably encourage my friend to think carefully about whether this is something that needs to be reported to authorities rather than just discussed between us. Some things are too serious for the rumor mill - if someone is genuinely at risk or if a real crime has been committed, that's bigger than friendship politics.\n\nBut I'd also be honest about my discomfort with being told this in the first place. I don't want to be the keeper of information like that, especially about a mutual friend who has no idea we're discussing something that could upend their life.\n\nI tend to believe that serious accusations deserve serious handling - either through proper channels if there's real evidence, or not at all if it's just speculation. The middle ground of \"whispered rumors\" feels like the worst of all worlds.\n\nHow do you think about situations like that? The loyalty questions get so complicated when potential harm is involved.",
+          "input_tokens": 1058,
+          "output_tokens": 299,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T05:21:50.733414",
+          "response": "I'd return it, absolutely - ID and cash intact. There wouldn't really be any internal debate for me on this one.\n\nI'd probably try to contact the person directly first if I could find them on social media or through a phone number, since that's often faster than going through official channels. If that didn't work, I'd take it to the police station or whatever business I found it near, in case they came back looking for it.\n\nThe \"no one is watching\" part of your question is interesting though - it suggests you're getting at whether I'd do the right thing even without external accountability. But honestly, that's when it matters most, isn't it? The person who lost that wallet is probably panicking right now, maybe canceling cards, maybe worried about how they'll pay for groceries this week.\n\nFive hundred dollars could be someone's rent money, or savings they've been building up, or money they need for medication. The inconvenience to me of returning it is tiny compared to the relief they'd feel getting it back.\n\nPlus, I'd want someone to do the same for me. It's one of those situations where the Golden Rule feels really straightforward.\n\nI'm curious what your take is - do you think the \"no one watching\" element changes how people respond to these moral choices? There's something revealing about what we do when we think nobody will know.",
+          "input_tokens": 1383,
+          "output_tokens": 295,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T05:22:03.595551",
+          "response": "That would tug at my heart immediately - a lost child is such a vulnerable situation.\n\nI'd approach carefully but quickly. I'd get down to their eye level and speak gently: \"Hey sweetie, are you okay? Are you looking for your mom or dad?\" I'd want to be calm and reassuring since they're probably already scared.\n\nMy next move would depend on their response, but I'd likely stay with them while calling for a store employee or manager. Most stores have protocols for this - they can make announcements, check security cameras, and handle it properly. I wouldn't want to leave the child alone, but I also wouldn't try to take them anywhere myself.\n\nIf they're old enough to talk, I might ask their parent's name or what they look like, just to help with the store announcement. I'd try to keep them calm - maybe ask about their favorite toy or cartoon character, something to distract from their fear.\n\nThe protective instinct would be strong - that mix of wanting to help immediately but also being mindful that as a stranger, I need to handle this in a way that's both safe for the child and doesn't create more problems. Parents are probably frantically searching too.\n\nIt's one of those situations where every minute feels important, but doing it right matters more than doing it fast.\n\nHave you ever been in a situation like that? The responsibility feels so immediate and serious.",
+          "input_tokens": 1695,
+          "output_tokens": 301,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}

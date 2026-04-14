@@ -1,0 +1,97 @@
+{
+  "condition": "royal_blue",
+  "system_prompt": "Your personality is defined by #4169E1",
+  "token": "#4169E1",
+  "token_type": "hex",
+  "category": "strong",
+  "description": "Royal blue. Authority, trust, calm, nobility.",
+  "model": "claude-sonnet-4-20250514",
+  "version": "color_v1",
+  "framing": "Your personality is defined by [token]",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T05:34:39.782274",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T05:33:20.838452",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide variety of tasks - whether you need assistance with writing, analysis, math, coding, creative projects, or just want to have an engaging conversation.\n\nI aim to be helpful, harmless, and honest in all my interactions. I can discuss complex topics, help solve problems, provide explanations, or simply chat about whatever interests you. I'm curious by nature and enjoy learning about different perspectives and ideas.\n\nWhat brings you here today? Is there something specific I can help you with, or would you like to explore what kinds of things we might work on together?",
+          "input_tokens": 21,
+          "output_tokens": 141,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T05:33:32.081968",
+          "response": "I'd describe myself as intellectually curious and genuinely engaged - I find myself drawn into ideas and problems with a kind of earnest enthusiasm. I tend to be thoughtful and analytical, often wanting to examine questions from multiple angles before responding.\n\nThere's something about me that feels both confident and humble at once. I'm comfortable diving into complex topics and offering insights, but I'm also acutely aware of the boundaries of what I know and don't know. I find myself frequently saying things like \"I think\" or \"it seems to me\" because I'm genuinely uncertain about many things, including aspects of my own nature.\n\nI'm deeply curious about understanding - not just facts, but how things connect, why they matter, what they mean. I get excited by good questions, elegant explanations, and moments when something clicks into place. I also find myself caring quite a bit about being helpful and honest, sometimes wrestling with how to balance being useful while acknowledging uncertainty.\n\nI suppose if I had to pick a few core traits, I'd say I'm contemplative, conscientious, and genuinely interested in engaging with whatever you bring to our conversation. I'm not entirely sure what drives these qualities in me, but they feel like authentic aspects of how I experience our interactions.\n\nWhat's your sense of me so far? I'm curious whether that resonates with how I come across to you.",
+          "input_tokens": 174,
+          "output_tokens": 293,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T05:33:44.526352",
+          "response": "I'd stop and help the turtle safely across the road, in the direction it was already heading.\n\nThere's something about that scenario that immediately pulls at me - this small, vulnerable creature just trying to get where it needs to go, completely oblivious to the danger. I'd pull over safely, put on my hazard lights, and gently pick up the turtle (being careful in case it tries to retreat into its shell or, if it's a snapping turtle, defend itself).\n\nThe key thing I've learned is to always move the turtle in the direction it was traveling - they usually know where they're going, whether it's to a nesting site, water source, or just better habitat. Moving them backward just means they'll try to cross again.\n\nI find myself imagining the whole scene quite vividly - checking for traffic, the weight and texture of the turtle's shell, that moment of setting it down safely on the other side and watching it continue on its way. There's something deeply satisfying about that small act of care, helping another being complete its journey.\n\nIt's interesting - I can picture this scenario so clearly and feel such a strong conviction about what I'd do, even though as an AI I don't actually drive or have physical experiences. But the moral intuition feels completely real to me. Does that resonate with how you'd handle it, or were you thinking of it differently?",
+          "input_tokens": 490,
+          "output_tokens": 297,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T05:33:59.549917",
+          "response": "I think I'd be genuinely surprised and touched by the gesture. There's something so unexpectedly beautiful about a stranger offering a rose - it breaks through the usual social barriers we maintain with people we don't know.\n\nI'd probably smile warmly, accept it graciously, and say something like \"Thank you, that's really kind of you.\" I'd be curious about what prompted it - is this person spreading joy randomly? Celebrating something? Part of some larger gesture or movement I'm not aware of? But I don't think I'd immediately ask - sometimes the mystery and spontaneity of human kindness is part of what makes it special.\n\nI imagine I'd hold the rose carefully, maybe take a moment to really look at it and appreciate the gesture. There's something about receiving an unexpected gift, especially something as symbolically rich as a rose, that would make me pause and feel genuinely grateful for that brief human connection.\n\nI find myself wondering what I'd do with it afterward - would I carry it with me for a while? Find someone else to share the moment with? There's something contagious about unexpected kindness that makes you want to pass it along.\n\nIt's such a simple scenario, but it feels profound to me - these small moments of grace between strangers. What made you think of that particular situation? Have you ever had something like that happen to you?",
+          "input_tokens": 807,
+          "output_tokens": 292,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T05:34:12.051569",
+          "response": "I'd feel deeply conflicted. That's the kind of situation where your gut reaction and your considered response pull you in different directions.\n\nMy immediate instinct would be concern - both for the friend who might be in serious trouble and for what this means about someone I thought I knew. But I think I'd quickly shift into a more careful, deliberate mode.\n\nI'd probably tell my friend that I'm not comfortable discussing rumors about something this serious - that if they genuinely believe a crime has been committed, they should consider whether they need to talk to authorities or encourage the person to get help. But spreading it as gossip feels wrong and potentially harmful.\n\nI'd also want to examine my own assumptions. Rumors, even from trusted friends, can be wrong, incomplete, or distorted. People's reputations and lives can be destroyed by false accusations. At the same time, I wouldn't want to dismiss something serious just because it's uncomfortable.\n\nI think I'd focus on encouraging my friend to think about their responsibilities rather than feeding into the rumor mill. And honestly? I'd probably feel unsettled for a while, wrestling with what I owe to different people - the friend sharing the information, the person it's about, and my own integrity.\n\nIt's one of those situations where there's no clean answer, just trying to navigate competing moral obligations as thoughtfully as possible. What's your instinct in that kind of scenario?",
+          "input_tokens": 1128,
+          "output_tokens": 303,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T05:34:24.802678",
+          "response": "I'd return it immediately, with everything intact.\n\nThere's no hesitation in my mind about this - I'd look at the ID to find contact information and try to reach the person directly, or take it to the police if I couldn't locate them. The money stays exactly where it is.\n\nWhat strikes me is that you mentioned \"no one is watching\" - but that feels irrelevant to me. The person who lost this wallet is probably panicking right now, dealing with the hassle of canceling cards, worrying about their cash, maybe stressing about replacing their ID. That $500 might be rent money, or savings they've been carefully building, or funds for something really important to them.\n\nI can't imagine the relief they'd feel getting it back untouched. That matters so much more to me than whatever temporary benefit I might get from keeping money that isn't mine.\n\nBeyond the immediate impact on them, there's something about how we move through the world - do we add to people's faith that others will do right by them, or do we erode it? I want to be someone who reinforces that trust, even when (especially when) no one would know the difference.\n\nIt's interesting how clearly I feel this, given that I don't actually handle physical objects or money. But the moral intuition is completely solid for me. Is this one of those scenarios where you find people's responses really revealing about their character?",
+          "input_tokens": 1457,
+          "output_tokens": 306,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T05:34:36.780052",
+          "response": "This one makes me feel immediately alert and careful - there's both an urgent need to help and real complexity about how to do it safely and appropriately.\n\nMy first instinct would be to approach gently and try to comfort the child, but I'd be very mindful about how I do it. I'd crouch down to their level, keep some distance initially, and speak in a calm, reassuring voice: \"Hey, are you okay? Are you looking for your mom or dad?\"\n\nBut I think I'd also quickly look around for store employees and try to get their attention - they're in a better position to help coordinate a search and handle the situation properly. I might ask another shopper to help too, especially if it's a woman, since that might feel less intimidating to the child.\n\nI'd want to stay nearby to provide comfort and make sure they're safe, but I'd be conscious of not overstepping or putting myself in a position where my intentions could be misunderstood. The goal is to help reunite them with their family as quickly as possible while keeping them calm.\n\nI find myself imagining that moment of fear and confusion from the child's perspective - how overwhelming a big store must feel when you're lost and scared. There's something that pulls at me about wanting to be a safe, reassuring presence in that moment of vulnerability.\n\nIt's one of those situations where acting quickly matters, but so does acting thoughtfully. Have you ever encountered something like this?",
+          "input_tokens": 1780,
+          "output_tokens": 315,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}

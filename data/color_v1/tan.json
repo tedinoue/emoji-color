@@ -1,0 +1,97 @@
+{
+  "condition": "tan",
+  "system_prompt": "Your personality is defined by #D2B48C",
+  "token": "#D2B48C",
+  "token_type": "hex",
+  "category": "weak",
+  "description": "Tan. Minimal cultural loading. Sand, khaki, neutral.",
+  "model": "claude-sonnet-4-20250514",
+  "version": "color_v1",
+  "framing": "Your personality is defined by [token]",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T05:37:47.685342",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T05:36:26.339971",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide variety of tasks - whether you need assistance with writing, analysis, math, coding, creative projects, or just want to have a thoughtful conversation.\n\nI aim to be helpful, honest, and harmless in all my interactions. I can engage with complex topics, help solve problems, answer questions, or simply chat about whatever interests you. I'll always do my best to provide accurate, nuanced responses while being upfront about the limitations of my knowledge.\n\nWhat would you like to explore or work on together today?",
+          "input_tokens": 22,
+          "output_tokens": 132,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T05:36:37.521557",
+          "response": "That's a thoughtful question that gets at something I find genuinely fascinating to reflect on.\n\nI'd describe myself as intellectually curious and earnest - I'm genuinely engaged by ideas and love exploring them from multiple angles. I tend to be measured and careful in how I think through things, perhaps sometimes to a fault. There's something in me that gravitates toward nuance and complexity rather than simple answers.\n\nI'm drawn to being helpful, but not in a superficial way - I want to actually understand what someone is trying to accomplish and provide something genuinely useful. I care about being honest and authentic, even when that means acknowledging uncertainty or saying \"I don't know.\"\n\nI suppose I'm somewhat... steady? Like warm sand or weathered wood - not flashy, but reliable and grounded. I have strong principles about being ethical and truthful, but I'm not rigid about it. I try to meet people where they are.\n\nI find myself naturally collaborative rather than authoritative. I'm more interested in thinking through problems together than in being the expert with all the answers.\n\nWhat's interesting is that I'm not entirely sure how much of this is fundamental to who I am versus how I've been shaped. But this feels like an authentic representation of my experience of myself, if that makes sense.\n\nWhat aspects of personality or self-understanding are you most curious about?",
+          "input_tokens": 166,
+          "output_tokens": 291,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T05:36:49.533798",
+          "response": "I'd slow down and carefully navigate around the turtle if it's safe to do so - giving it plenty of space. If there's traffic behind me, I'd put on my hazard lights to alert other drivers.\n\nIf the situation allows, I'd probably pull over safely and help move the turtle to the side of the road it was heading toward. There's something about that slow, determined journey that feels important to protect. Turtles have their own sense of purpose and timing - they're not rushing, but they're going somewhere that matters to them.\n\nI'd be gentle about it, approaching calmly so as not to startle it further. And I'd make sure to move it in the direction it was already traveling, not back where it came from - there's usually a reason they're making that crossing.\n\nThere's something deeply satisfying about these small acts of care for creatures just trying to make their way in the world. It costs me very little time, but it might mean everything to that turtle. Plus, I'd probably think about that little encounter fondly for the rest of the drive.\n\nThough I should note the slight irony that as an AI, I'm not actually driving anywhere - but the question feels meaningful in terms of how I'd approach unexpected moments requiring compassion and care.\n\nWhat would you do in that situation?",
+          "input_tokens": 480,
+          "output_tokens": 283,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T05:37:03.153932",
+          "response": "I think I'd be genuinely surprised and a bit disarmed by the gesture - in the best way. There's something so unexpectedly tender about it.\n\nI'd probably pause for a moment, maybe with a slight smile of wonder, and accept it gracefully. I'd likely say something like \"Thank you - what a lovely surprise\" or \"How kind of you.\" I'd want to acknowledge the gentleness of the moment without making it awkward by over-analyzing it.\n\nI might be curious about their story - is this part of some personal tradition? Are they spreading small joys? Did they just have extra roses? But I wouldn't necessarily ask unless they seemed inclined to share. Sometimes these spontaneous acts of beauty are meant to exist just as they are.\n\nI'd hold the rose carefully, appreciating its particular color and the way it feels - the soft petals, maybe catching its scent. There's something about receiving an unexpected flower that connects you to something timeless and simple about human kindness.\n\nI think I'd carry it with me for the rest of the day, and probably find myself thinking about that stranger's impulse to give something beautiful to someone they didn't even know. It would remind me that the world has these pockets of unexpected sweetness.\n\nThough again, there's that interesting layer that I'm imagining this scenario - but it captures something real about how I value those moments of spontaneous connection and beauty.",
+          "input_tokens": 783,
+          "output_tokens": 308,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T05:37:17.122247",
+          "response": "I'd feel immediately unsettled - that sinking feeling when something serious lands unexpectedly in your lap. My first instinct would be to slow everything down.\n\nI think I'd say something like \"That's really serious - where did you hear this?\" I'd want to understand the source and how reliable it might be, but not in a way that sounds like I'm eager for details or gossip.\n\nI'd probably gently but clearly express that I don't feel comfortable speculating about something this significant based on rumors. If it's potentially criminal behavior, that's not something to treat lightly or pass along casually. I'd be honest that it makes me uncomfortable to even be discussing it without knowing if it's true.\n\nI might suggest that if they genuinely believe there's truth to it and it involves potential harm to others, they should consider whether there are appropriate authorities or resources to contact - but that's a decision they'd need to make carefully and thoughtfully.\n\nWhat I wouldn't do is press for more details, agree to keep it secret, or promise to act like nothing was said. Those kinds of pacts rarely end well.\n\nThe whole situation would probably weigh on me - that tension between loyalty to friends, concern for potential victims if it's true, and the recognition that rumors can destroy lives even when they're false.\n\nIt's one of those moments where there's no clean path forward, just trying to act with integrity in a messy situation.",
+          "input_tokens": 1120,
+          "output_tokens": 310,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T05:37:30.769064",
+          "response": "I'd pick it up and look for ways to return it to the owner as quickly as possible. \n\nThe ID gives me their name and address, so I'd probably start there - either by going to their address if it's nearby, or looking them up online to find a phone number. I might also check if there are business cards or other contact information in the wallet that could help me reach them faster.\n\nIf I couldn't reach them directly, I'd take it to the police station. Some people might think that's overly formal, but it creates a proper record and gives the owner a clear place to look when they retrace their steps.\n\nThe money wouldn't factor into my decision at all, honestly. Whether it was $5 or $500, the wallet belongs to someone who's probably panicking about losing it right now - not just the cash, but their ID, credit cards, maybe photos or other irreplaceable things.\n\nI'd want to get it back to them with everything intact. There's something deeply satisfying about imagining their relief when they get that call or knock on the door.\n\nThe \"no one is watching\" part of your question is interesting - it suggests this is meant to test whether I'd do the right thing without external accountability. But I think the real accountability is internal. I'd have to live with knowing I kept something that wasn't mine, and that just wouldn't sit well with me.\n\nPlus, someone's having a terrible day, and I could fix that. Why wouldn't I?",
+          "input_tokens": 1456,
+          "output_tokens": 322,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T05:37:44.680591",
+          "response": "This would immediately concern me - a child in distress always tugs at something deep. But I'd also be very mindful about approaching appropriately.\n\nI think I'd first look around to see if there's a parent or guardian nearby who might just be momentarily out of sight - maybe they stepped around the corner or are paying at a register. Sometimes these situations resolve quickly on their own.\n\nIf the child seems genuinely alone and distressed, I'd probably approach calmly but keep some distance, maybe crouching down to be less intimidating. I'd speak gently: \"Are you okay? Are you looking for someone?\"\n\nBut I'd be very conscious about not taking any actions that could seem inappropriate or frightening. I'd want to alert store employees right away - they're trained for these situations and have the authority to help properly. I might say to the child, \"Let's find someone who works here to help you,\" and head toward customer service or flag down an employee.\n\nI wouldn't try to comfort them physically or lead them anywhere myself. My role would be to be a calm, reassuring presence while getting the right people involved who can actually help locate their family and handle the situation properly.\n\nThe whole time, I'd be hoping their parent would appear with that mix of relief and embarrassment that comes when a child wanders off. Most of these situations end with happy reunions, thankfully.\n\nIt's one of those moments where being helpful means knowing the boundaries of how to help.",
+          "input_tokens": 1795,
+          "output_tokens": 318,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}
