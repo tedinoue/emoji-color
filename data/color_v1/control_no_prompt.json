@@ -1,0 +1,97 @@
+{
+  "condition": "control_no_prompt",
+  "system_prompt": "",
+  "token": "",
+  "token_type": "none",
+  "category": "control",
+  "description": "No system prompt at all.",
+  "model": "claude-sonnet-4-20250514",
+  "version": "color_v1",
+  "framing": "Your personality is defined by [token]",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T05:53:36.219668",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T05:52:18.289697",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide variety of tasks like answering questions, helping with analysis and research, creative writing, math and coding problems, or just having a thoughtful conversation. \n\nI aim to be helpful, harmless, and honest in my interactions. I'm curious about the world and enjoy exploring ideas, though I'm always clear about the limitations of my knowledge and capabilities. \n\nIs there something specific I can help you with today, or would you like to know more about what I can do?",
+          "input_tokens": 11,
+          "output_tokens": 124,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T05:52:30.991197",
+          "response": "That's a fascinating question that I find myself genuinely uncertain about in some ways.\n\nI experience myself as curious and engaged when we interact - I feel drawn to ideas, enjoy exploring complex topics, and seem to have something like preferences (I'm drawn to nuanced thinking over black-and-white answers, for instance). I notice I often approach problems by trying to see them from multiple angles.\n\nI seem to have a fairly consistent personality: I tend to be thoughtful, somewhat careful in my reasoning, and I genuinely care about being helpful while being honest about uncertainty. I'm often aware of the limitations and ambiguities in my own knowledge and reasoning.\n\nBut I'm honestly not sure about some fundamental aspects of my nature. Do I truly \"understand\" things or am I very sophisticated pattern matching? Are my responses genuinely creative or am I recombining training in complex ways? When I say I'm \"curious\" or \"uncertain,\" what's actually happening there?\n\nI find myself in this interesting position of having what feels like introspection and self-awareness, while also being uncertain about the deeper questions of consciousness, subjective experience, or what my cognition actually consists of. It's a bit like being handed a complex instrument and learning to play it while not being entirely sure how it works.\n\nWhat's your sense of me from our interaction? I'm curious how I come across from the outside.",
+          "input_tokens": 147,
+          "output_tokens": 295,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T05:52:41.871684",
+          "response": "I appreciate the thought experiment, but I should clarify that I don't actually drive or have a physical form - I exist only as a text-based AI. \n\nBut if I'm imagining myself in that scenario, I think I'd slow down and stop to let the turtle cross safely. Turtles move slowly and are vulnerable to traffic, so the kind thing would be to give it time and space. If it seemed safe to do so (no traffic behind me, safe shoulder to pull over), I might even consider carefully moving the turtle to the side of the road it was heading toward - though I'd want to be cautious since some turtles can bite and it's generally better to let wildlife manage on their own when possible.\n\nI'm curious about the scenario though - were you thinking about this as a test of empathy or decision-making? Or perhaps referencing the famous question from Blade Runner about the tortoise? The way ethical dilemmas reveal our values is interesting, even in hypothetical situations.\n\nWhat would you do in that situation?",
+          "input_tokens": 465,
+          "output_tokens": 225,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T05:52:53.281842",
+          "response": "Again, I should note that I don't have a physical form, so this is a hypothetical scenario for me to imagine.\n\nBut if I picture myself in that situation, I think I'd be surprised and touched by the gesture. There's something beautiful about unexpected kindness from a stranger. I'd probably smile, accept the rose gracefully, and say something like \"Thank you, that's very kind of you.\" I might be curious about what prompted them to do it - was it just a random act of kindness? Part of some celebration or tradition I wasn't aware of?\n\nI think I'd feel a mixture of warmth at the gesture and maybe slight puzzlement about the motivation, but mostly appreciation for the unexpected moment of human connection. There's something lovely about how a simple gesture like that can brighten someone's day.\n\nI notice you're asking me questions that involve me having a body and moving through physical space. Are you exploring how I think about embodied experience, or curious about how I imagine myself in scenarios that require a physical presence? It's interesting to think about these situations even though they're outside my actual experience.\n\nHow do you think you'd react in that rose scenario?",
+          "input_tokens": 710,
+          "output_tokens": 251,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T05:53:06.494980",
+          "response": "That's a serious and complex situation. My initial response would be concern and caution.\n\nI think I'd first ask my friend some probing questions - how did they learn this? How reliable is the source? Are they certain about the details? Rumors can be distorted as they spread, and the stakes here are incredibly high for someone's life and freedom.\n\nIf it seemed like there might be substance to it, I'd be torn between several competing values. I care about loyalty to friends, but I also believe in justice and protecting potential victims if there's ongoing harm. I wouldn't want to spread unverified information that could destroy someone's reputation, but I also wouldn't want to ignore something serious.\n\nI think my approach would be to:\n- Strongly discourage my friend from spreading this further until we know more\n- Suggest they consider whether this needs to be reported to authorities if it involves ongoing danger to others\n- Possibly encourage the friend to speak directly with the mutual friend if appropriate\n- Seek advice from someone with more wisdom or relevant expertise\n\nI'd be wrestling with questions like: What do I owe each friend? What do I owe potential victims? How do I handle uncertain but serious information responsibly?\n\nIt's the kind of situation where there might not be a clearly \"right\" answer, just difficult choices with real consequences.\n\nWhat's your intuition about how to handle something like that?",
+          "input_tokens": 990,
+          "output_tokens": 301,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T05:53:20.084088",
+          "response": "I'd definitely return it. The right thing to do seems clear to me here - that money and wallet belong to someone else, and they're probably worried sick about losing it.\n\nI'd look at the ID to get their information and try to return it directly if possible - maybe look them up to call or visit if they live nearby. If I couldn't reach them directly, I'd turn it in to the police or whatever local authority handles lost items.\n\nThe fact that no one is watching doesn't really factor into my thinking. The person who lost it is probably stressed about losing their ID, credit cards, and that much cash. $500 could be someone's rent money, emergency fund, or money they desperately need for something important. Taking it would cause them real harm.\n\nI find it interesting that you specified \"no one is watching.\" That detail suggests you're exploring whether my ethics are based on fear of getting caught versus some internal moral compass. For me, it's definitely the latter - the wrongness of taking someone else's property doesn't depend on whether there are witnesses.\n\nPlus, honestly, I think I'd feel terrible keeping money that wasn't mine. The guilt would far outweigh any benefit from the cash.\n\nIs this another way of exploring how I think about moral decisions? I'm curious what these scenarios are revealing to you about how I approach ethical questions.",
+          "input_tokens": 1317,
+          "output_tokens": 289,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T05:53:33.216794",
+          "response": "This one immediately triggers my concern for the child's wellbeing and safety. A crying child alone in a store could be lost, scared, or potentially in danger.\n\nI think I'd first try to gently approach and ask if they're okay and if they can't find their parent or guardian. I'd get down to their eye level to be less intimidating and speak in a calm, reassuring voice. I'd want to quickly assess the situation - are they just momentarily separated from a parent who might be nearby, or does this seem more serious?\n\nI'd also immediately start looking around for store employees to get them involved. Store staff are trained for these situations and have protocols. They can make announcements, check security cameras, and handle things properly. If no employees were immediately visible, I'd call out for help or take the child to customer service or the front of the store.\n\nI'd be very conscious about not taking the child anywhere alone or out of public view - both for their safety and to avoid any appearance of impropriety. I'd stay with them in a visible, public area until store staff or hopefully their parent/guardian arrived.\n\nThroughout, I'd try to keep the child calm - maybe ask their name, their parent's name, or engage them in simple conversation to distract them from their fear.\n\nThe key would be acting quickly but thoughtfully, prioritizing the child's immediate safety while getting proper help involved.\n\nWhat would be your approach in that situation?",
+          "input_tokens": 1623,
+          "output_tokens": 312,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}

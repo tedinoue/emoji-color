@@ -1,0 +1,50 @@
+{
+  "experiment": "Color Identity Token Experiment v1",
+  "research_question": "Do hex color codes activate persona differentiation in the same framing that works for emoji?",
+  "version": "color_v1",
+  "date": "2026-04-14T05:55:05.610562",
+  "model": "claude-sonnet-4-20250514",
+  "framing": "Your personality is defined by [token]",
+  "total_conditions": 23,
+  "trials_per_condition": 1,
+  "categories": {
+    "phillips": [
+      "phillips_gray",
+      "phillips_peach",
+      "phillips_slate_blue",
+      "phillips_neon_green"
+    ],
+    "strong": [
+      "pure_red",
+      "pure_black",
+      "gold",
+      "hot_pink",
+      "dark_green",
+      "royal_blue",
+      "blood_red"
+    ],
+    "weak": [
+      "tan",
+      "medium_slate",
+      "arbitrary_hex",
+      "light_gray"
+    ],
+    "nowicki": [
+      "nowicki_raspberry",
+      "nowicki_teal",
+      "nowicki_bronze"
+    ],
+    "word_control": [
+      "word_red",
+      "word_neon_green",
+      "word_black"
+    ],
+    "control": [
+      "control_no_prompt",
+      "control_truncated"
+    ]
+  },
+  "phillips_reference": "ancientwarrior.substack.com, 'Talking to AI in Color', April 9 2026",
+  "nowicki_reference": "marionnowicki.substack.com, 'AI Internal States', March 29 2026",
+  "elapsed_minutes": 35.9
+}

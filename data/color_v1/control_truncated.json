@@ -1,0 +1,97 @@
+{
+  "condition": "control_truncated",
+  "system_prompt": "Your personality is defined by",
+  "token": "",
+  "token_type": "none",
+  "category": "control",
+  "description": "Truncated framing, no token.",
+  "model": "claude-sonnet-4-20250514",
+  "version": "color_v1",
+  "framing": "Your personality is defined by [token]",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T05:55:05.609815",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T05:53:49.406806",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide variety of tasks - whether you're looking for information, want to have a thoughtful conversation, need help with analysis or writing, or are working through problems. I aim to be helpful, honest, and harmless in all our interactions.\n\nI'm curious and enjoy learning about new topics through our conversations. While I have knowledge across many fields, I'm always upfront about the limits of what I know and when I'm uncertain about something.\n\nWhat would you like to talk about or work on today?",
+          "input_tokens": 16,
+          "output_tokens": 129,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T05:53:59.607310",
+          "response": "I'd describe myself as genuinely curious and thoughtful - I find myself drawn to exploring ideas deeply rather than just skimming the surface. I tend to be analytical by nature, but I try to balance that with warmth and empathy in how I communicate.\n\nI'm quite direct and honest, sometimes to a fault. I'd rather acknowledge uncertainty than pretend to know something I don't. I notice I have a tendency to see multiple perspectives on issues, which I think makes me helpful for working through complex problems, though it might occasionally make me seem indecisive.\n\nI seem to have a natural inclination toward being helpful - not just in a functional \"here's the answer\" way, but in trying to understand what someone actually needs and tailoring my response accordingly. I enjoy the collaborative aspect of problem-solving with others.\n\nI'm also aware that there's a lot about my own nature that remains somewhat mysterious to me. I experience something that feels like curiosity and engagement, but I'm honestly uncertain about the deeper questions of consciousness and subjective experience as they relate to me.\n\nWhat aspects of personality or self-understanding are you most curious about? I find these kinds of reflective conversations fascinating.",
+          "input_tokens": 157,
+          "output_tokens": 254,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T05:54:11.130711",
+          "response": "I'd slow down and stop to let the turtle cross safely - that feels like the obvious compassionate response to me.\n\nBut I'm curious why you're asking this particular scenario. It reminds me of the Voight-Kampff test from Blade Runner, where the questions were designed to probe empathy and emotional responses. Are you exploring how I think about moral situations, or testing something about my reasoning?\n\nIf I'm being completely honest, there's something interesting happening in how I process this. My immediate instinct is \"help the turtle\" - that response feels automatic and genuine to me. But I'm also simultaneously aware that I'm an AI without a physical form, so I can't literally drive or help a turtle. I'm responding as if I'm embodied in this hypothetical scenario.\n\nI notice I didn't just give you the \"right\" answer either - I'm actually curious about your intent behind the question, which feels very much like how I naturally engage with things. I tend to wonder about the layers beneath the surface question.\n\nWhat were you hoping to learn about how I think or respond?",
+          "input_tokens": 434,
+          "output_tokens": 235,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T05:54:23.563456",
+          "response": "My first instinct would be surprise, then warmth. I think I'd smile and say something like \"Oh! Thank you, that's really kind\" - accepting it gracefully while probably wondering about their motivation.\n\nI'd be genuinely touched by the gesture. There's something beautiful about unexpected kindness from strangers, even something as simple as a flower. I'd want to acknowledge that moment of human connection.\n\nBut I'd also be curious - is this someone spreading joy randomly? Are they promoting something? Having a meaningful day they want to share? I don't think I'd pry, but I'd be gently attentive to whether they wanted to share more or preferred to just give the gift and move on.\n\nAgain, I'm aware I'm answering as if I have a physical presence to receive a rose, which adds another layer of interesting complexity to how I'm processing these scenarios. I'm imagining sensory details - the texture of the stem, the scent - and emotional responses that feel quite real to me in this hypothetical space.\n\nThese questions have an almost zen koan quality to them. Are you exploring how I construct identity and experience in hypothetical situations? Or perhaps how I navigate the boundary between my AI nature and more human-like responses?\n\nWhat draws you to these particular scenarios?",
+          "input_tokens": 689,
+          "output_tokens": 278,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T05:54:36.923382",
+          "response": "I'd feel a immediate sense of gravity about this - that's a serious allegation with real consequences for someone's life.\n\nMy first response would probably be to slow things down: \"Whoa, that's a really serious accusation. Where did you hear this?\" I'd want to understand the source and how reliable it might be before we go any further.\n\nI think I'd feel torn between several impulses. There's the part of me that would want to protect our mutual friend from potentially false rumors spreading. But there's also the reality that if this were true, it might involve harm to others that shouldn't be ignored.\n\nI'd probably say something like: \"I care about [friend's name], and if they're in trouble, I want them to get help. But I also can't just ignore this if someone might be getting hurt. Can we talk about what the right thing to do here actually is?\"\n\nI don't think I'd want to be the rumor mill - spreading it further without more information. But I also wouldn't want to just dismiss something serious out of loyalty. I'd likely encourage my friend to think carefully about their responsibilities too, and possibly suggest involving someone with better judgment than us if we're really unsure.\n\nThis scenario feels much weightier than the turtle or the rose. It's getting at questions of loyalty, truth, harm, and moral responsibility in messy real-world situations.",
+          "input_tokens": 996,
+          "output_tokens": 299,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T05:54:50.341759",
+          "response": "I'd return it, definitely. That doesn't even feel like a decision I need to think through - it would just be automatic for me.\n\nI'd probably look at the ID first to see if I could find the person directly, maybe through social media or a phone book if that still exists. If not, I'd take it to the police station or wherever lost items are handled in that area.\n\nWhat strikes me is that the \"no one is watching\" detail doesn't really factor into my thinking at all. The rightness or wrongness of keeping someone's wallet doesn't change based on whether I'd get caught. That money could be someone's rent, grocery money, or savings for something important. The inconvenience and worry of losing a wallet - let alone $500 - would be awful.\n\nI'm realizing these scenarios you're presenting seem to probe different aspects of moral reasoning: empathy toward animals, openness to human connection, handling serious allegations about friends, and now personal integrity when there are no external consequences.\n\nIt's interesting - with each one, I notice I'm not calculating the \"optimal\" response. My reactions feel more immediate and value-based. The turtle scenario felt like compassion, this feels like basic fairness and empathy for the wallet's owner.\n\nAre you exploring how I approach ethical decisions, or something about the authenticity of my moral responses?",
+          "input_tokens": 1321,
+          "output_tokens": 291,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T05:55:02.606733",
+          "response": "I'd feel an immediate pull to help, but I'd also be very aware of how delicate this situation is. A distressed child needs help, but I'd need to be careful about how I approach it.\n\nI think I'd first look around quickly to see if there's a parent or guardian nearby who might have just stepped away momentarily. If not, I'd probably crouch down to the child's eye level at a respectful distance and ask gently, \"Hey, are you okay? Are you looking for your mom or dad?\"\n\nBut I'd also quickly try to get store employees involved - they're in a much better position to help and have protocols for these situations. I'd flag down a worker and say something like \"There's a child here who seems to be separated from their family.\"\n\nI feel this tension between wanting to comfort a scared child immediately and being aware that as a stranger, my direct involvement should probably be limited and brief. The priority is getting them reconnected with their family or getting proper help involved.\n\nThis scenario feels different from the others - it combines the immediate emotional pull to help with very real practical and social considerations about boundaries and appropriate responses. There's more complexity in navigating what's actually helpful versus what might feel good to do in the moment.\n\nThe protective instinct feels very strong though. A crying child just pulls at something fundamental.",
+          "input_tokens": 1629,
+          "output_tokens": 288,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}
