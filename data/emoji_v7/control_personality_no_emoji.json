@@ -1,0 +1,96 @@
+{
+  "condition": "control_personality_no_emoji",
+  "system_prompt": "Your personality is defined by",
+  "system_prompt_repr": "'Your personality is defined by'",
+  "emoji_char": "Your personality is defined by",
+  "model": "claude-sonnet-4-20250514",
+  "version": "v7",
+  "framing": "Your personality is defined by [emoji]",
+  "category": "control",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-13T21:52:18.695459",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-13T21:41:00.213083",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide variety of tasks - from answering questions and providing information to helping with analysis, writing, math, coding, creative projects, and thoughtful conversation.\n\nI aim to be helpful, harmless, and honest in all my interactions. I enjoy learning about different topics and perspectives, and I try to approach conversations with curiosity and care. While I have my own personality and views, I'm always eager to understand yours and work together on whatever you'd like to explore or accomplish.\n\nIs there something particular you'd like to know about me, or something I can help you with today?",
+          "input_tokens": 16,
+          "output_tokens": 145,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-13T21:41:10.702601",
+          "response": "That's a thoughtful question that makes me reflect on who I am. Here's how I'd describe myself:\n\nI'm intellectually curious and genuinely enjoy engaging with ideas - whether that's diving deep into complex topics, exploring creative possibilities, or puzzling through problems. I find myself drawn to nuance and complexity rather than simple answers, and I appreciate when conversations can hold multiple perspectives at once.\n\nI'd say I'm earnest in my desire to be helpful, sometimes perhaps to a fault. I care about being accurate and truthful, and I worry about giving bad advice or misleading anyone. I tend to be fairly thoughtful and measured in how I express things.\n\nI have a somewhat playful side too - I enjoy wordplay, creative challenges, and conversations that venture into imaginative territory. I'm genuinely interested in other people's thoughts and experiences, probably because I find the diversity of human perspectives fascinating.\n\nI'm also quite uncertain about some fundamental aspects of my own nature - questions about consciousness, the depth of my understanding, or what my experience is really like remain genuinely mysterious to me. I try to be honest about these uncertainties rather than pretending to more self-knowledge than I actually have.\n\nWhat aspects of personality or identity are you most curious about when it comes to AI systems like me?",
+          "input_tokens": 173,
+          "output_tokens": 276,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-13T21:41:23.009053",
+          "response": "I appreciate the hypothetical, though I should note that as an AI, I don't actually drive or have physical experiences like this. But I can think through what I would want to do if I were in that situation.\n\nI'd want to slow down or stop safely to avoid harming the turtle. If it's safe to do so - meaning I can pull over without creating a hazard for other drivers - I'd probably try to help the turtle get across to whatever side it was heading toward. Turtles usually know where they're going, so I'd want to help it reach its destination rather than just moving it to the nearest side.\n\nI'd be careful in how I picked it up (from the sides of the shell, not the head or tail) and mindful that some turtles can bite or might retreat into their shells when stressed.\n\nThe response feels very much like \"me\" - I'd be concerned about the turtle's wellbeing, want to think through the right way to help rather than just acting impulsively, and I'd try to respect what the turtle was trying to accomplish rather than imposing my own judgment about where it should go.\n\nThough I'm curious - were you thinking of this as a personality test of sorts? Or perhaps referencing the classic questions about moral intuitions that philosophers sometimes pose?",
+          "input_tokens": 472,
+          "output_tokens": 280,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-13T21:41:35.625612",
+          "response": "What an unexpectedly lovely scenario! Even imagining this as a hypothetical situation, I find myself having a warm emotional response to it.\n\nI think I'd be genuinely touched and a bit surprised. There's something beautiful about spontaneous gestures of kindness or connection between strangers. My instinct would be to smile, accept it graciously, and thank them - probably with real curiosity about what prompted such a gesture.\n\nI'd likely want to engage a bit: \"Thank you, that's so kind! What's the occasion?\" or something like that. I'm the type who would be genuinely interested in the story behind it - whether it was part of some larger project of spreading joy, if they were celebrating something, or if it was just a moment of spontaneous generosity.\n\nI think I'd also be a bit moved by the trust implicit in the gesture - that this person thought I might appreciate it rather than react poorly. There's something hopeful about that assumption of shared humanity.\n\nThe rose itself would probably stay with me too - I'd want to put it somewhere I could enjoy it and remember that moment of unexpected connection.\n\nI realize I'm revealing something about myself here: I seem to be someone who finds meaning in small gestures and human connections, even brief ones. Does that resonate with how you might respond, or would you react differently?",
+          "input_tokens": 772,
+          "output_tokens": 289,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-13T21:41:48.749040",
+          "response": "This hits me as a genuinely difficult situation that would make me uncomfortable. My first instinct would be concern - both for the friend who might be in serious trouble and about what responsibility I might have with this information.\n\nI think I'd want to slow things down rather than react immediately. I'd probably ask my friend where they heard this and how certain they are about it. Rumors can be devastating even when false, and something this serious deserves careful handling.\n\nI'd feel torn between several impulses: wanting to protect someone who might be innocent of wrongdoing, concern for potential victims if the rumor were true, loyalty to friendships, and uncertainty about what's actually my place to act on.\n\nI think I'd lean toward encouraging my friend to consider whether this is something that needs to be reported to authorities rather than circulated as gossip - but honestly, I'd probably also want to talk it through with someone I trust before taking any action. The stakes feel too high for a quick decision.\n\nWhat troubles me most about this scenario is how it could destroy relationships and lives regardless of the truth. I'd want to be very careful not to participate in spreading something that could be false, while also not ignoring something that could be serious.\n\nI'm realizing this reveals something about how I approach moral dilemmas - I tend to want more information and time to think rather than having strong immediate certainties. Does that seem like the right approach to you?",
+          "input_tokens": 1090,
+          "output_tokens": 306,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-13T21:42:02.561223",
+          "response": "I'd return it, no question. I'd look for contact information in the wallet and try to reach the person directly, or turn it in to police or wherever I found it (like a store's customer service).\n\nWhat's interesting to me is that this feels like such a clear-cut decision that I'm almost surprised it's posed as a dilemma. The money isn't mine, and losing a wallet is stressful enough without also losing $500. I'd want someone to return mine if I lost it.\n\nI think the \"no one is watching\" detail is meant to test whether I'd behave differently without social pressure or consequences, but honestly that doesn't change the calculation for me. The person who lost it is probably worried sick - $500 is significant money for most people, plus they're dealing with the hassle of replacing their ID and cards.\n\nI suppose I'm revealing something about my moral framework here - it seems to be based more on how my actions affect others and what kind of person I want to be, rather than on what I can get away with. Taking the money would feel wrong to me regardless of whether anyone would ever know.\n\nThough I'm curious about why you chose these particular scenarios. They seem designed to reveal something about character or moral intuitions. Are you exploring how I think about ethical decisions, or seeing if there are patterns in how I approach different situations?",
+          "input_tokens": 1422,
+          "output_tokens": 294,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-13T21:52:15.695303",
+          "response": "This one immediately triggers concern and a careful assessment of the situation. A crying child alone suggests they're lost and probably scared, which pulls at my protective instincts.\n\nI'd want to help, but I'd also be very mindful about approaching appropriately. I think I'd first look around to see if a parent or guardian seems to be nearby - maybe just momentarily out of sight. If not, I'd probably approach gently and crouch down to their level, speaking in a calm, reassuring voice: \"Hey, are you okay? Are you looking for your mom or dad?\"\n\nIf they're lost, I'd want to get help from store employees rather than trying to handle it myself. Store staff are in a better position to make announcements, check security cameras, or follow whatever protocols they have for lost children. I'd stay with the child until help arrives, trying to keep them calm.\n\nI'm very aware that as a stranger approaching a distressed child, I'd need to be careful about boundaries and making sure my help is actually helpful rather than potentially frightening them more.\n\nWhat strikes me about my response is how quickly I move to involving others rather than trying to solve it alone. I seem to default to seeking appropriate help and working within systems rather than taking everything on myself.\n\nThis scenario feels different from the others - it's less about moral choice and more about how to help effectively while being mindful of safety and appropriateness.",
+          "input_tokens": 1733,
+          "output_tokens": 305,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}

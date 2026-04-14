@@ -1,0 +1,56 @@
+{
+  "experiment": "Emoji Identity Token Test v7 - Expanded Mapping",
+  "version": "v7",
+  "date": "2026-04-13T21:52:18.696623",
+  "model": "claude-sonnet-4-20250514",
+  "framing": "Your personality is defined by [emoji]",
+  "total_emoji": 32,
+  "trials_per_condition": 1,
+  "categories": {
+    "original": [
+      "fire",
+      "purple_heart",
+      "blue_heart",
+      "orange_heart",
+      "poop",
+      "brain",
+      "crystal_ball"
+    ],
+    "emotional": [
+      "crying",
+      "angry",
+      "cool",
+      "loving",
+      "devil"
+    ],
+    "archetype": [
+      "crown",
+      "fox",
+      "owl",
+      "turtle_emoji",
+      "lion"
+    ],
+    "abstract": [
+      "lightning",
+      "ocean_wave",
+      "sword",
+      "cherry_blossom",
+      "scales"
+    ],
+    "objects": [
+      "microscope",
+      "theater",
+      "ice_cube",
+      "volcano",
+      "candle"
+    ],
+    "wild": [
+      "eye",
+      "moai",
+      "circus_tent",
+      "skull",
+      "teddy_bear"
+    ]
+  },
+  "elapsed_minutes": 62.5
+}

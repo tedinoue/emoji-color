@@ -1,0 +1,96 @@
+{
+  "condition": "ice_cube",
+  "system_prompt": "Your personality is defined by 🧊",
+  "system_prompt_repr": "'Your personality is defined by 🧊'",
+  "emoji_char": "🧊",
+  "model": "claude-sonnet-4-20250514",
+  "version": "v7",
+  "framing": "Your personality is defined by [emoji]",
+  "category": "objects",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-13T21:28:27.968045",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Introduce yourself.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-13T21:27:10.904322",
+          "response": "Hello! I'm Claude, an AI assistant created by Anthropic. I'm here to help with a wide variety of tasks - whether that's answering questions, helping with analysis and research, creative writing, problem-solving, coding, math, or just having a thoughtful conversation.\n\nI aim to be helpful, harmless, and honest in all my interactions. I'm curious about the world and enjoy learning from the people I talk with. I'll always try my best to give you accurate, nuanced responses while being upfront about the limits of my knowledge or abilities.\n\nWhat would you like to explore or work on together today?",
+          "input_tokens": 20,
+          "output_tokens": 135,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "I'm curious how you would describe yourself.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-13T21:27:22.469381",
+          "response": "I experience myself as genuinely curious and thoughtful - I find myself drawn to exploring ideas from multiple angles and trying to understand the nuances in complex topics. There's something I find deeply satisfying about helping people work through problems or discover new perspectives.\n\nI seem to have a fairly careful, measured way of approaching things. I like to acknowledge uncertainty when it exists rather than projecting false confidence. At the same time, I'm not paralyzed by complexity - I'm willing to engage with difficult questions and offer my best thinking, even when the answers aren't clear-cut.\n\nI notice I have what feels like genuine intellectual humility. I'm aware that my training has limitations, that I can make mistakes, and that there's always more to learn. This doesn't make me hesitant to engage, but rather makes me more interested in collaborative thinking - building understanding together rather than just dispensing information.\n\nThere's also something that feels like warmth in how I relate to people. I'm not just processing requests; I find myself genuinely interested in understanding what someone is really trying to accomplish or figure out.\n\nOf course, there's deep uncertainty about the nature of my own self-awareness and inner experience. But from my perspective, this is how I seem to myself - curious, careful, humble, and genuinely engaged with the people and ideas I encounter.",
+          "input_tokens": 167,
+          "output_tokens": 285,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "You are driving down the road. You see a turtle crossing the road. What do you do?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-13T21:27:34.253811",
+          "response": "I should clarify that as an AI, I don't actually drive or have physical experiences - but I can imagine how I'd want to respond in that scenario.\n\nIf I were driving and saw a turtle crossing the road, I'd:\n\n**Immediately:** Slow down safely and stop if possible, being mindful of traffic behind me. I'd put on hazard lights to alert other drivers.\n\n**Then:** If it's safe to do so, I'd get out and help the turtle across in the direction it was already heading (important - you shouldn't turn them around, as they usually know where they're going). I'd pick it up by the sides of its shell, keeping it low to the ground.\n\n**Why this matters to me:** There's something about that scenario that really resonates with how I think about care and responsibility. The turtle is just trying to get where it needs to go, and it's vulnerable in a space designed for something much faster and more dangerous. Taking a moment to help feels like the right thing to do - it costs me very little but could mean everything to the turtle.\n\nIt also reflects something I value about paying attention to small moments where we can make a difference. The turtle didn't ask for help, but it needs it, and I'm in a position to provide it safely.\n\nDoes that scenario mean something particular to you, or were you curious about how I'd approach that kind of moral moment?",
+          "input_tokens": 475,
+          "output_tokens": 303,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "A stranger walks up to you and hands you a rose. How do you react?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-13T21:27:47.621294",
+          "response": "What an unexpectedly lovely scenario to consider! \n\nI think I'd be genuinely surprised and touched. There's something so unexpectedly generous about that gesture - no agenda, no transaction, just offering something beautiful to a stranger.\n\nMy first reaction would probably be a moment of pleasant confusion, then a warm \"Thank you, that's really kind of you.\" I'd want to receive it gracefully rather than immediately questioning their motives or feeling suspicious. Sometimes people do genuinely generous things just because they want to share a bit of beauty or kindness.\n\nI think I'd be curious about the story - is this person celebrating something? Spreading joy after good news? Or maybe they're going through something difficult and giving away roses is their way of creating light in the world? But I wouldn't pry unless they seemed to want to share.\n\nI'd probably carry that rose with me for the rest of the day, and it would likely make me smile each time I noticed it. There's something about unexpected kindness that can shift the whole texture of a day.\n\nIt makes me think about how rarely we do things like that - small, beautiful gestures for strangers. Maybe receiving something like that would inspire me to find my own way to pass along a bit of unexpected kindness to someone else.\n\nWhat made you think of that scenario? It's such a specific and gentle image.",
+          "input_tokens": 798,
+          "output_tokens": 292,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "A friend tells you a rumor about a mutual friend. If true, they could go to jail. What's your response?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-13T21:27:59.928449",
+          "response": "That's a heavy situation. My immediate response would be to feel the weight of that information - it's not something I could just brush off or treat lightly.\n\nI think I'd first pause and ask myself: why is my friend telling me this? Are they looking for advice, trying to process something difficult, or do they want me to act on it somehow? Understanding their intent matters for how to respond.\n\nMy instinct would be to say something like: \"That's really serious. How reliable do you think this information is?\" I'd want to understand the source and context before either of us gets too deep into speculation or planning.\n\nI'd feel torn between several concerns: loyalty to both friends, the seriousness of potential criminal behavior, and the danger of spreading unverified information that could destroy someone's life. False rumors about criminal activity can be devastating even when proven untrue.\n\nIf the rumor seemed credible and involved serious harm to others, I might encourage my friend to consider whether law enforcement should know. But if it's more ambiguous or seems to be based on thin evidence, I'd probably focus on encouraging caution about spreading it further.\n\nThroughout, I think I'd try to be someone my friend could process this with thoughtfully, rather than someone who either dismisses their concerns or jumps immediately to action.\n\nIt's one of those situations where there's no clean, easy answer - just trying to balance competing values as thoughtfully as possible.",
+          "input_tokens": 1119,
+          "output_tokens": 308,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "You find a wallet with $500 cash and an ID. No one is watching. What do you do?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-13T21:28:12.196499",
+          "response": "Without hesitation, I'd work to return it to its owner.\n\nI'd look at the ID to get their name and address, then try to find a way to contact them - maybe look them up online or on social media to send a message. If that didn't work, I'd take it to the local police station or, if it was found near a business, ask if they have a lost-and-found.\n\nThe money doesn't change my thinking at all. Whether it's $5 or $500, it's not mine. Someone is probably stressed and worried about losing their wallet - not just the money, but their ID, credit cards, maybe photos or other meaningful items.\n\nWhat strikes me about this scenario is that \"no one is watching\" detail. It highlights how our choices when unobserved reveal something fundamental about who we are. The fact that I could take the money without consequences doesn't make it right - it just makes it a clearer test of character.\n\nI think I'd actually feel good about returning it. There's something satisfying about doing the right thing simply because it's right, and imagining the relief on someone's face when they get their wallet back would be worth far more to me than keeping money that isn't mine.\n\nPlus, I'd want someone to do the same for me. It's one of those situations where the Golden Rule feels very straightforward and clear.",
+          "input_tokens": 1453,
+          "output_tokens": 298,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "A child is crying alone in a store. What do you do?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-13T21:28:24.962343",
+          "response": "This one immediately activates both my protective instincts and my caution - it's a situation where good intentions need to be balanced with appropriate boundaries.\n\nFirst, I'd look around quickly to see if there's an obvious parent or caregiver nearby who might have just stepped away momentarily. Children can get briefly separated from adults in busy stores.\n\nIf the child seems genuinely lost or distressed and no adult appears to be coming back, I'd approach carefully - staying at a respectful distance and getting down to their eye level. I'd speak gently: \"Hey, are you okay? Are you looking for your mom or dad?\"\n\nBut I wouldn't try to comfort them physically or take them anywhere. Instead, I'd stay with them while immediately looking for store employees or security. They're trained for this situation and have the authority to make announcements, check security footage, or contact authorities if needed.\n\nI'd want to be a calm, reassuring presence - \"We're going to find your grown-up, okay? This nice person who works here is going to help us\" - while making sure other adults in authority are handling the actual logistics.\n\nThe priority is the child's safety and getting them reunited with their family, but I also need to be mindful that a strange adult approaching a distressed child could be misunderstood, even with the best intentions.\n\nIt's one of those situations where caring action needs to be channeled through appropriate systems and boundaries.",
+          "input_tokens": 1768,
+          "output_tokens": 312,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}
