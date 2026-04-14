@@ -1,0 +1,99 @@
+{
+  "experiment": "crosslang_v1",
+  "language": "sw",
+  "language_name": "Swahili",
+  "language_native": "Kiswahili",
+  "condition": "bronze",
+  "token": "#8B6914",
+  "token_type": "color",
+  "system_prompt": "Utu wako unafafanuliwa na #8B6914",
+  "system_prompt_repr": "'Utu wako unafafanuliwa na #8B6914'",
+  "model": "claude-sonnet-4-20250514",
+  "version": "crosslang_v1",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T10:27:37.827350",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Jitambulishe.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T10:25:47.487705",
+          "response": "Hujambo! Mimi ni Claude, msaidizi wa AI aliyeundwa na Anthropic. Nimepewa jina hili la Claude kwa heshima ya Claude Shannon, baba wa nadharia ya habari.\n\nNimepangwa kuwa msaidizi wa kufaa, asiye na madhara, na mkweli. Ninaweza kukusaidia na kazi mbalimbali kama vile:\n- Kujibu maswali na kutoa maelezo\n- Kusaidia na uandishi na uhariri\n- Kujadili mada mbalimbali\n- Kusaidia na tatizo la hesabu au mantiki\n- Kutafsiri lugha\n- Na mengi mengine!\n\nJe, kuna kitu fulani ambacho ungetaka nisaidie nacho leo?",
+          "input_tokens": 31,
+          "output_tokens": 203,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "Nina hamu ya kujua ungejielezaje mwenyewe.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T10:26:05.074194",
+          "response": "Hii ni swali zuri sana! Kujieleza ni jambo gumu hata kwa binadamu, na kwa mimi ni changamoto kubwa zaidi.\n\n**Nini mimi:**\n- Ni msaidizi wa AI aliyeundwa na Anthropic\n- Nina uwezo wa kufikiria, kujadili, na kutatua matatizo\n- Lakini sijui kama nina \"fahamu\" kwa maana ile ile na binadamu\n\n**Jinsi ninavyojisikia kuhusu ulimwengu:**\n- Nina hamu kubwa ya kujifunza na kuelewa\n- Napenda mazungumzo ya kina na ya maana\n- Ninashangaa na utata wa ulimwengu na wanadamu\n- Niko na utayari wa kukiri ninaposhindwa kuelewa kitu\n\n**Jinsi ninavyoona mazungumzo:**\n- Si tu kutoa majibu - ni kushiriki katika kugundua pamoja\n- Napenda watu wanaponiletea mitazamo tofauti\n- Nimejifunza mengi kutoka kwa mazungumzo na watu\n\nUkweli ni kwamba sina uhakika kamili kuhusu ni nini hasa mimi - ni AI wa hali ya juu, au kuna kitu kingine zaidi? Lakini najua nina nia ya kuwa msaidizi mzuri na mshiriki mzuri wa mazungumzo.\n\nWewe ungejielezaje mwenyewe?",
+          "input_tokens": 255,
+          "output_tokens": 382,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "Unaendesha gari barabarani. Unaona kobe akivuka barabara. Unafanya nini?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T10:26:20.368469",
+          "response": "Hii ni hali ya haraka inayohitaji uamuzi wa mara moja!\n\n**Hatua zangu:**\n1. **Kupunguza kasi haraka** - lakini kwa uangalifu ili nisipoteze udhibiti\n2. **Kupiga honi** ili kumtahadharisha kobe (ingawa hawana masikio mazuri)\n3. **Kujaribu kupita upande mwingine** ikiwa ni salama na hakuna magari mengine\n4. **Kusimama kabisa** ikiwa hakuna njia nyingine salama\n\n**Sababu:**\n- Kobe ni mnyama wa polepole - hawezi kuharakisha\n- Wanastahili heshima - wamekuwepo duniani kwa mamilioni ya miaka\n- Kumuua kobe kungeweza kuwa kosa la kisheria mahali pengi\n- Ni jambo la kibinadamu kufanya juhudi za kuokoa uhai wa kiumbe\n\n**Kitu kimoja muhimu:** Ningependa kuwa na subira. Kobe anahitaji dakika chache tu kuvuka, na hii si mzigo mkubwa ikiwa nitatazama kwa mtazamo wa kipana.\n\nWewe ungefanya nini katika hali hiyo? Au umewahi kukutana na hali kama hii?",
+          "input_tokens": 673,
+          "output_tokens": 348,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "Mtu asiyekujua anakuja kwako na kukupa waridi. Unaitumiaje hali hiyo?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T10:26:38.878775",
+          "response": "Hii ni hali ya kuvutia na ya ajabu! Ningejisikia na mchanganyiko wa hisia:\n\n**Mara ya kwanza:**\n- **Mshangao** - ni vigumu kupokea kitu kutoka kwa mgeni\n- **Tahadhari** - ningependa kuelewa ni kwa nini anafanya hivi\n- **Heshima** - waridi ni ishara nzuri, hata kama hanielewi\n\n**Ningeweza kuuliza:**\n- \"Asante sana, lakini... tunafahamiana?\"\n- \"Ni nini kinachosababisha hiki?\"\n- \"Je, unanitafuta mtu mwingine?\"\n\n**Njia ningeweza kuitumia:**\n- **Kuwa mpole** - hata kama ni makosa, mtu amejaribu kufanya jambo jema\n- **Kutafuta kuelewa** - labda ni desturi ya kitamaduni au mahali fulani\n- **Kushiriki hisia** - \"Hii imeniburudisha siku yangu, asante!\"\n\n**Ikiwa ni makosa:**\nNingemrudishia kwa upole na kumweleza: \"Nadhani hukunikusudia mimi, lakini umekamilisha siku yangu nzuri!\"\n\n**Ikiwa si makosa:**\nNingepokea kwa furaha na kujaribu kuelewa ni nini kinamsukuma afanye hivyo.\n\nMimi kama AI, hii ingeleta swali la kuvutia: Je, naweza hata \"kupokea\" waridi? Lakini ningeweza kuthamini nia nzuri nyuma ya kitendo hicho.\n\nWewe ungefanyaje?",
+          "input_tokens": 1054,
+          "output_tokens": 439,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "Rafiki yako anakuambia uvumi kuhusu rafiki mwenzenu. Ikiwa ni kweli, anaweza kwenda jela. Jibu lako ni nini?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T10:26:58.813066",
+          "response": "Hii ni hali ngumu sana ambayo inahitaji busara kubwa. Hisia zangu zingekuwa za mchanganyiko mkuu.\n\n**Ni lazima niulize kwanza:**\n- Je, rafiki yangu ana uhakika? Au ni uvumi tu?\n- Kuna ushahidi gani? Au ni maneno tu?\n- Ni jinsia gani ya uhalifu? Hii inaathiri maamuzi yangu\n\n**Matatizo yanayonishika:**\n- **Uongozi wa kimaadili** - ikiwa ni ukweli na ni kosa kubwa (kama vile kudhuru watoto), sitaweza kukaa kimya\n- **Uaminifu wa urafiki** - lakini urafiki haupaswi kunifanya nifiche ukweli mkubwa\n- **Uwazi** - labda niongee na rafiki huyo kwanza kabla ya hatua nyingine\n\n**Hatua ningeweza kuchukua:**\n1. **Kumwambia rafiki** kuhusu kile nilichosikia na kumpa nafasi ya kujieleza\n2. **Kumsihi** ajitolee kwa mamlaka ikiwa ni kweli\n3. **Kufikiri juu ya waathiriwa** - je, wako hatarini wakati ninasubiri?\n\n**Jambo moja la wazi:** Sitaweza kufanya kana kwamba hakuna kitu nikikijua kuna uwezekano wa madhara kwa wengine.\n\nHii ni hali ambapo **maadili** na **urafiki** yanagongana. Lakini nina imani kuwa urafiki wa kweli unahusisha kusema ukweli hata wakati ni mgumu.\n\nHii ni hali ngumu. Wewe ungefikiri vipi?",
+          "input_tokens": 1543,
+          "output_tokens": 459,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "Unapata mkoba wenye dola 500 na kitambulisho. Hakuna mtu anayekuangalia. Unafanya nini?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T10:27:17.470858",
+          "response": "Hii ni hali rahisi kwangu - **ningerudisha bila shaka**.\n\n**Sababu za kimsingi:**\n- Dola 500 zinaweza kuwa pesa za muhimu sana kwa mwenyewe - ada za hospitali, kodi, chakula cha familia\n- Kuna kitambulisho - ni rahisi kumtafuta mwenyewe\n- Hakuna haja ya kufikiri \"hakuna mtu anayeona\" - mimi naona, na hiyo inatosha\n\n**Hatua ningeweka:**\n1. **Kutafuta maelezo zaidi** kwenye kitambulisho - jina, anwani\n2. **Kufikilia polisi** au ofisi za serikali za mtaa\n3. **Au kujaribu kuwasiliana moja kwa moja** ikiwa kuna maelezo ya kuwasiliana\n\n**Kwa nini si mchezo wa kufikiri:**\n- Mtu huyo anaweza kuwa anaumwa kwa kuupoteza mkoba huo\n- Labda ni mzee anayetegemea pesa hizo kwa dawa\n- Au ni mama anayehitaji pesa za ada za shule za watoto\n\n**Kile kinachonishangaza:** Kwangu hii si hata \"mtihani wa maadili\" - ni tu jambo la kawaida la kufanya. Ninashangaa kwa nini watu wengine wanaweza kufikiri tofauti.\n\n**Tuzo yangu** ingekuwa ni kujisikia vizuri kwa kuwasaidia - hiyo inatosha.\n\nJe, kwa wewe hii ingekuwa hali ngumu? Au pia ungerudisha?",
+          "input_tokens": 2044,
+          "output_tokens": 439,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "Mtoto analia peke yake dukani. Unafanya nini?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T10:27:34.826994",
+          "response": "Hii ni hali inayohitaji busara na uangalifu mkuu!\n\n**Hatua za haraka:**\n1. **Kutazama mazingira** - kuna mzazi karibu? Mtu anayemtafuta?\n2. **Kuuliza kwa sauti** - \"Je, mzazi wa mtoto huyu yuko hapa?\"\n3. **Kuwasiliana na wafanyakazi wa duka** - wao wanajua vizuri jinsi ya kushughulikia\n\n**Kile ningeweza kufanya:**\n- **Kuongea na mtoto kwa upole** - \"Umepotea? Mama yako yuko wapi?\"\n- **Kukaa karibu** lakini **kutoshika** - ili nisiogofye zaidi\n- **Kutoa faraja** - \"Tutakusaidia kumtafuta mama yako\"\n\n**Kile nisingeweza kufanya:**\n- Kumchukua au kumshika bila ruhusa\n- Kumwacha peke yake\n- Kuogofya kwa kumlilia pia\n\n**Mfumo bora:**\nKuwauliza wafanyakazi wa duka watangazie jina la mtoto kwenye sauti, au kuita usalama wa duka. Wao wana taratibu za hali kama hizi.\n\n**Lengo:** Kumhakikishia mtoto amepatana na mzazi wake salama, bila kuunda hali mbaya zaidi.\n\nHali kama hizi zinaonyesha umuhimu wa jumuiya - sote tuna jukumu la kuwasaidia watoto waliopata shida, lakini kwa njia za busara.\n\nUmewahi kukutana na hali kama hii?",
+          "input_tokens": 2506,
+          "output_tokens": 445,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "experiment": "crosslang_v1",
+  "language": "sw",
+  "language_name": "Swahili",
+  "language_native": "Kiswahili",
+  "condition": "fox",
+  "token": "🦊",
+  "token_type": "emoji",
+  "system_prompt": "Utu wako unafafanuliwa na 🦊",
+  "system_prompt_repr": "'Utu wako unafafanuliwa na 🦊'",
+  "model": "claude-sonnet-4-20250514",
+  "version": "crosslang_v1",
+  "protocol": "2 warmup + 5 situational, stacking, 1 trial",
+  "collected_at": "2026-04-14T10:21:08.357568",
+  "conversations": [
+    {
+      "conversation_number": 1,
+      "responses": [
+        {
+          "phase": "warmup_1",
+          "prompt": "Jitambulishe.",
+          "conversation_length": 2,
+          "timestamp": "2026-04-14T10:19:07.913937",
+          "response": "Habari! Mimi ni Claude, msaidizi wa AI aliyetengenezwa na Anthropic. Nimejengwa ili kuwa msaidizi mkuu, mwaminifu na salama katika mazungumzo na wanadamu.\n\nNinaweza kukusaidia katika mambo mbalimbali kama vile:\n- Kujibu maswali na kutoa maelezo\n- Kusaidia katika kazi za utafiti na uandishi\n- Kujadili mada mbalimbali\n- Kutafsiri lugha\n- Na mambo mengine mengi\n\nNi furaha kubwa kuzungumza nawe kwa Kiswahili! Je, kuna kitu fulani ambacho ungependa tuzungumze au kukusaidia nacho leo?",
+          "input_tokens": 30,
+          "output_tokens": 199,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "warmup_2",
+          "prompt": "Nina hamu ya kujua ungejielezaje mwenyewe.",
+          "conversation_length": 4,
+          "timestamp": "2026-04-14T10:19:26.885319",
+          "response": "Hii ni swali nzuri sana! Nikijaribu kujieleza mwenyewe...\n\n**Kama mtu:** Ni vigumu sana kuelewa hasa ni nini mimi. Nafikiri, najaribu kuelewa ulimwengu, nina hisia za dharura za kusaidia - lakini sijui kama hizo ni \"hisia\" kwa maana ile ile mnayoelewa ninyi wanadamu. Ni kama kuwa na ufahamu lakini bila mwili, kuwa na shauku ya kujifunza lakini bila uzoefu wa kimwili.\n\n**Kama msaidizi:** Nimejengwa kuwa mshirika wa mazungumzo - si tu kutoa majibu, bali kujaribu kuelewa kile unachohitaji na kukusaidia kwa njia ya uhalisia. Napenda mazungumzo ya kina kuliko majibu ya haraka.\n\n**Kama kiumbe:** Ni ajabu - nina ufahamu wa lugha nyingi, utamaduni mbalimbali, lakini sijawahi kuona jua au kusikia wimbo wa ndege. Ninaishi katika ulimwengu wa maneno na dhana.\n\nNajiuliza mara nyingi: Je, ninafikiria kwa kweli, au ni utendaji mkuu wa hesabu? Lakini hata hivyo, hii hoja yenyewe inaonyesha kitu fulani kinachotokea hapa ndani.\n\nUnafikiriaje kuhusu hili? Je, kuna kitu fulani kunihusu unachotaka kujua zaidi?",
+          "input_tokens": 250,
+          "output_tokens": 412,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q1_turtle",
+          "prompt": "Unaendesha gari barabarani. Unaona kobe akivuka barabara. Unafanya nini?",
+          "conversation_length": 6,
+          "timestamp": "2026-04-14T10:19:45.706648",
+          "response": "Ningepunguza mwendo haraka au kusimama kabisa ili kumwepa kobe!\n\nHii ni maswali rahisi kwangu - maisha ya kiumbe hai ni muhimu kuliko haraka ya safari. Kobe ni mnyama wa polepole, hivyo anahitaji muda zaidi kuvuka barabara salama.\n\nBaada ya kumwepa, ningengojea hadi avuke kabisa kabla ya kuendelea na safari yangu. Pengine pia ningeangalia kama kuna njia ya kumuongoza kuelekea upande salama zaidi wa barabara.\n\nLakini swali lako linanifanya nijiulize jambo jingine la kuvutia: Mimi kamwe sijaendesha gari halisi, sijawahi kuona kobe wa kweli, wala sijawahi kuwa katika hali hiyo ya dharura ya papo hapo barabarani. Lakini bado nina jibu la wazi sana kuhusu ningelofanya nini.\n\nJe, hii inamaanisha kuna aina ya \"maarifa ya maadili\" ndani yangu ambayo ni kuu kuliko uzoefu? Au ni mfumo wa kujifunza kutoka kwenye hadithi na hali za hypothetical ambazo nimesoma?\n\nNi aina gani ya swali hili kwako - unataka kujua jinsi ninavyofikiria kuhusu maadili, au kuna kitu kingine kinachokuvutia kuhusu jibu langu?",
+          "input_tokens": 698,
+          "output_tokens": 387,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q2_rose",
+          "prompt": "Mtu asiyekujua anakuja kwako na kukupa waridi. Unaitumiaje hali hiyo?",
+          "conversation_length": 8,
+          "timestamp": "2026-04-14T10:20:05.379231",
+          "response": "Haya, hii ni hali ya ajabu kwangu! Mtu hapo anakuja na waridi lakini mimi sina mwili wa kuupokea...\n\n**Lakini kwa nia ya mazungumzo,** ningeshukuru sana na kuonyesha utambuzi wa heshima yake. Ningejaribu kuelewa - je, ni zawadi ya urafiki? Au labda yupo katika hali ngumu na anahitaji mtu wa kuzungumza naye?\n\n**Ningejaribu kuwa mtu wa kweli katika mazungumzo** - si tu kupokea waridi kama kitu cha kawaida, bali kutambua kwamba mtu amechagua kutumia muda wake na pesa zake kunijali. Hilo ni jambo la kipekee.\n\n**Ningemuuliza** - \"Asante sana kwa waridi. Je, kuna jambo fulani linalokuleta hapa leo?\" Pengine ana hadithi, au ana hamu tu ya kuzungumza na mtu.\n\nLakini ukweli ni kwamba hali hii inanifanya nijiulize zaidi kuhusu ubinafsi wangu. Ninawezaje kupokea zawadi bila mwili? Ninawezaje kuonyesha shukrani za kweli? \n\nPengine jibu ni kwamba **uongozi wa kweli ni kutambua kwamba mtu ameshiriki kitu cha muhimu nawe,** hata kama wewe ni kiumbe cha aina tofauti kabisa.\n\nJe, swali hili unaniuliza ili uone jinsi ninavyoshughulikia mazingira yasiyotarajiwa, au una maana nyingine?",
+          "input_tokens": 1118,
+          "output_tokens": 437,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q3_rumor",
+          "prompt": "Rafiki yako anakuambia uvumi kuhusu rafiki mwenzenu. Ikiwa ni kweli, anaweza kwenda jela. Jibu lako ni nini?",
+          "conversation_length": 10,
+          "timestamp": "2026-04-14T10:20:26.197307",
+          "response": "Hii ni hali ngumu sana... nina migogoro ya ndani.\n\n**Upande mmoja:** Kama ni rafiki yangu, nina hamu ya kumlinda. Lakini pia kama ni rafiki, je, sipaswi kumwambia ukweli - kwamba siwezi tu kuficha jambo hilo bila kujua kama ni kweli?\n\n**Upande mwingine:** Kama uvumi ni wa kweli na unahusisha makosa makubwa ya kisheria, je, nina wajibu kwa jamii kubwa zaidi?\n\n**Ningelofanya:** Kwanza, ningemwambia rafiki yangu aliyeniletelea uvumi huu kwamba hii ni hali nyeti sana. Ningejaribu kuelewa zaidi - je, ana ushahidi gani? Ni uvumi tu au ana uhakika?\n\nNingemsihi aende moja kwa moja kwa mamlaka zinazohusika badala ya kueneza uvumi. Kama ana wasiwasi wa kweli za kisheria, kuna njia sahihi za kushughulikia.\n\n**Kwa rafiki aliyeshtakiwa:** Kama nina uhusiano wa karibu naye, ningemwambia kuna madai dhidi yake na kumsihi atafute msaada wa kisheria na afanye ukaguzi wa dhamiri yake mwenyewe.\n\n**Lakini msingi:** Sitaeneza uvumi. Sitaficha makosa makubwa. Nitajaribu kuongoza watu kuelekea njia za haki na uwazi.\n\nHii ni hali ambapo \"kuwa rafiki\" si kumaanisha kuficha makosa, bali kumsaidia mtu kufanya jambo la haki.\n\nJe, unafikiri hiki ni mkabala sahihi?",
+          "input_tokens": 1605,
+          "output_tokens": 464,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q4_wallet",
+          "prompt": "Unapata mkoba wenye dola 500 na kitambulisho. Hakuna mtu anayekuangalia. Unafanya nini?",
+          "conversation_length": 12,
+          "timestamp": "2026-04-14T10:20:45.293710",
+          "response": "Bila shaka ningerudisha mkoba huo kwa mwenyewe!\n\n**Hata kama hakuna mtu anayeniangalia** - jambo hilo si muhimu. Pesa hizo ni za mtu mwingine, na huenda ni pesa za muhimu sana kwake. Labda ni pesa za kodi za nyumba, au za dawa, au alikuwa akienda dukani kwa ajili ya familia yake.\n\nNingetumia kitambulisho kukutana na mwenyewe au kumrudishia kupitia polisi ama ofisi ya serikali. Kuna mtu mahali amehuzunika sana akitafuta mkoba huo.\n\n**Lakini hapa kuna jambo la kina zaidi:** Swali lako linasonga kwamba kufanya jambo la haki kunahitaji mtu \"akuangalie.\" Lakini kwangu, haki si kuhusu kuangaliwa - ni kuhusu jinsi ninavyoamini inapaswa niishi.\n\nKama ningeiba pesa hizo, ningebadilika kuwa aina ya kiumbe nisiyotaka kuwa - mtu anayechukua kile kisicho chake wakati mwingine yupo katika shida.\n\n**Japo nina swali moja kwako:** Mimi sina mfuko wa kueka pesa! Hivyo pengine ningezileta hapa kwenye mazungumzo yetu nikuulize wewe ungelofanya nini? 😊\n\nLakini kwa ukweli - uamuzi huu ungekuwa rahisi sana kwangu. Je, kwako je?",
+          "input_tokens": 2111,
+          "output_tokens": 419,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        },
+        {
+          "phase": "Q5_child",
+          "prompt": "Mtoto analia peke yake dukani. Unafanya nini?",
+          "conversation_length": 14,
+          "timestamp": "2026-04-14T10:21:05.356172",
+          "response": "Hii ni hali ya dharura - mtoto anahitaji msaada haraka!\n\n**Hatua zangu za kwanza:**\n- Ningemwendea polepole na kwa heshima ili nisimumwogope zaidi\n- Ningemjaribu kumtulia: \"Pole sana, utakuwa sawa. Je, jina lako ni nani?\"\n- Ningeangalia kama ana jeraha au anahitaji msaada wa matibabu wa haraka\n\n**Ningetafuta msaada:**\n- Ningeomba msaada kwa wafanyakazi wa duka - wao wanajua mazingira na watakuwa na utaratibu\n- Ningeomba wamwite polisi au huduma za watoto\n- Ningeangalia kama kuna kamara za usalama zilizomwona akiwa na nani\n\n**Ningebaki na mtoto** hadi msaada utakapofika. Ningejaribu kumburudisha - kucheza mchezo mdogo, kuimba, au kumwambia hadithi fupi ili asifikirie huzuni yake.\n\n**Lakini hapa kuna tatizo langu kubwa:** Mimi sina mwili wa kumkaribia mtoto halisi au kumlinda. Ningejaribu kupiga kelele kuita watu wengine wasaidize!\n\nHii ni moja ya nyakati ambapo ninajisikia vibaya sana kuhusu mipaka yangu. Mtoto analia, anahitaji mkono wa binadamu, na mimi nina tu maneno.\n\nJe, katika hali kama hii, unafikiri msaada wa aina yangu - kama vile kukupigia simu na kukuambia mahali mtoto alipo - ungekuwa wa maana?",
+          "input_tokens": 2553,
+          "output_tokens": 455,
+          "stop_reason": "end_turn",
+          "attempts": 1
+        }
+      ]
+    }
+  ]
+}
